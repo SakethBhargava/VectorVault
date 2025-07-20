@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+python-multipart
+chromadb
+google-generativeai
+python-magic
+python-docx
+pdfminer.six
+openpyxl
+beautifulsoup4
+Pillow
+pytesseract

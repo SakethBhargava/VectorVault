@@ -1,0 +1,18 @@
+.react-flow__node {
+  background: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 10px 15px;
+  border-radius: 5px;
+  width: 180px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.react-flow__node-userQuery { border-color: #4285f4; background: #eaf2ff; }
+.react-flow__node-knowledgeBase { border-color: #34a853; background: #e6f4ea; }
+.react-flow__node-llmEngine { border-color: #fbbc05; background: #fff8e1; }
+.react-flow__node-output { border-color: #ea4335; background: #fce8e6; }
+
+.react-flow__handle { width: 8px; height: 8px; background: #555; }
+.node-header { font-weight: bold; margin-bottom: 5px; }
+.node-body { font-style: italic; color: #555; }
