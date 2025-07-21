@@ -5,7 +5,7 @@ import WorkflowBuilder from './components/WorkflowBuilder';
 import './App.css';
 
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || "http://localhost:8000",
+  baseURL: process.env.REACT_APP_API_URL,
   withCredentials: true,
 });
 
