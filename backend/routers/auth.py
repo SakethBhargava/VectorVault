@@ -50,8 +50,8 @@ def login(response: Response, form_data: OAuth2PasswordRequestForm = Depends()):
         key="session_id",
         value=session_id,
         httponly=True,
-        samesite="lax",
-        secure=False,
+        samesite="none",
+        secure=True,
         max_age=3600
     )
     return {"message": f"Welcome, {user['username']}"}
