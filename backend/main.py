@@ -6,8 +6,7 @@ app = FastAPI()
 
 # Enhanced CORS configuration
 origins = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
+    "https://vectorvault.netlify.app/"
 ]
 
 app.add_middleware(
