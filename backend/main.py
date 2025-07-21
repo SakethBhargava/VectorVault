@@ -5,10 +5,7 @@ from routers import auth, embed, workflow
 app = FastAPI()
 
 # Enhanced CORS configuration
-origins = [
-     "http://localhost:3000",
-    "https://vectorvault.netlify.app"
-]
+origins = ["https://vectorvault.netlify.app"]
 
 app.add_middleware(
     CORSMiddleware,
